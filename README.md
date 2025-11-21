@@ -11,10 +11,18 @@ This project focuses on developing a Network Intrusion Detection System (NIDS) u
 
 - UNSW-NB15 Dataset: The system is trained and tested using the UNSW-NB15 dataset, a comprehensive collection of network traffic data that includes both normal and malicious activities, enabling the detection of a wide variety of attack types.
 
-**3. Development Tools Used**
+**3. Tools and Libraries**
 
-- Machine Learning Algorithms: Random Forest, Support Vector Machines (SVM), Logistic Regression, XGBoost
+- Programming Language: Python
 
-- Dataset: UNSW-NB15
+- Development Environment: Jupyter Notebooks (IPYNB format)
 
-- Tools: Python, Jupyter Notebooks (IPYNB), Scikit-learn, Pandas, Matplotlib, etc.
+- Data Manipulation and Analysis: Pandas, NumPy
+
+- Machine Learning: Scikit-learn (including models like RandomForest, SVM, Logistic Regression), XGBoost, OneVsRestClassifier, StackingClassifier
+
+- Visualization: Matplotlib
+
+- Model Serialization: Joblib
+
+- Miscellaneous: OS, gc (Garbage Collection)
